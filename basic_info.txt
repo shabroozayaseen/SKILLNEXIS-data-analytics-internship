@@ -1,0 +1,41 @@
+Basic Dataset Information
+
+Rows: 51290
+Columns: 24
+
+Column data types:
+Row ID              int64
+Order ID           object
+Order Date         object
+Ship Date          object
+Ship Mode          object
+Customer ID        object
+Customer Name      object
+Segment            object
+Postal Code       float64
+City               object
+State              object
+Country            object
+Region             object
+Market             object
+Product ID         object
+Category           object
+Sub-Category       object
+Product Name       object
+Sales             float64
+Quantity            int64
+Discount          float64
+Profit            float64
+Shipping Cost     float64
+Order Priority     object
+
+Missing values by column:
+Postal Code    41296
+
+First five rows:
+   Row ID                  Order ID  Order Date   Ship Date     Ship Mode   Customer ID     Customer Name      Segment  Postal Code           City            State        Country          Region        Market   Product ID    Category Sub-Category                               Product Name     Sales  Quantity  Discount    Profit  Shipping Cost Order Priority
+0   40098  CA-2014-AB10015140-41954  2014-11-11  2014-11-13   First Class  AB-100151402     Aaron Bergman     Consumer      73120.0  Oklahoma City         Oklahoma  United States      Central US          USCA  TEC-PH-5816  Technology       Phones                           Samsung Convoy 3   221.980         2       0.0   62.1544          40.77           High
+1   26341    IN-2014-JR162107-41675  2014-02-05  2014-02-07  Second Class     JR-162107     Justin Ritter    Corporate          NaN     Wollongong  New South Wales      Australia         Oceania  Asia Pacific  FUR-CH-5379   Furniture       Chairs  Novimex Executive Leather Armchair, Black  3709.395         9       0.1 -288.7650         923.63       Critical
+2   25330    IN-2014-CR127307-41929  2014-10-17  2014-10-18   First Class     CR-127307      Craig Reiter     Consumer          NaN       Brisbane       Queensland      Australia         Oceania  Asia Pacific  TEC-PH-5356  Technology       Phones          Nokia Smart Phone, with Caller ID  5175.171         9       0.1  919.9710         915.49         Medium
+3   13524   ES-2014-KM1637548-41667  2014-01-28  2014-01-30   First Class    KM-1637548  Katherine Murray  Home Office          NaN         Berlin           Berlin        Germany  Western Europe        Europe  TEC-PH-5267  Technology       Phones             Motorola Smart Phone, Cordless  2892.510         5       0.1  -96.5400         910.16         Medium
+4   47221   SG-2014-RH9495111-41948  2014-11-05  2014-11-06      Same Day    RH-9495111       Rick Hansen     Consumer          NaN          Dakar            Dakar        Senegal  Western Africa        Africa  TEC-CO-6011  Technology      Copiers             Sharp Wireless Fax, High-Speed  2832.960         8       0.0  311.5200         903.04       Critical
